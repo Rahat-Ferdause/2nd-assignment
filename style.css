@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* header section */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:120px ;
+    margin-right:120px ;
+    margin-top: 40px;  
+}
+header h1{
+    margin: 0px;
+    padding:0px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+ul li a{
+    text-decoration: none;
+    margin-right: 34px;
+    color: black;
+    cursor: pointer;
+}
+.navbar ul li a:hover{
+    color: rgb(240, 9, 9);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+/* banner section */
+
+section{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-right:165px;
+}
+.header-title{
+    width: 50%;
+    align-items: center;
+}
+.header-title h1{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 70px;
+}
+.header-title p{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.img-section{
+    background-image: url(images/Circle\ design.svg);
+    width: 40%;
+    margin-left: 20%;
+    background-repeat: no-repeat;
+}
+.btn{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 41px;
+}
+.btn:hover{
+    background-color: #ffffff;
+    border-style: solid;
+    border-color:#E02C6D;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+/* banner section */
+.banner-section{
+    margin-top: 120px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+.image-area{
+    border-top: 1px solid rgb(212, 201, 201);
+    border-bottom: 1px solid rgb(212, 201, 201);
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 4px 5px 4px rgb(187, 170, 170);
+}
+.image-area img{
+    padding: 30px 40px;
+}
+
+/* main section */
+main{
+    width: 1047px;
+    height: 1662px;
+    margin-left: 250px;
+    margin-top: 80px;
+
+}
+.collection-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin-top: 100px;
+    margin-left: 196px;
+    margin-right: 196px;
+    justify-content: center;
+}
+.collection{
+    margin-top: 30px;
+    width: 329px;
+    height: 476px;
+    top: 1006px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.display-banner img{
+    margin-top: 17px;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 300px;
+    height: 256px;
+    left: 287px;
+    top: 1023px;  
+}
+.display-info{
+    margin-left: 14px;
+}
+.popular-1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.popular-2{
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+.popular-3{
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+.display-info p{
+    color: #787885;
+    margin: 0px;
+    padding: 10px 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+}
+.fa-star.fill{
+    color: #FB8200;
+}
+.fa-star-half-alt.empty{
+    color: #FB8200;
+}
+.see{
+    margin-top: 50px;
+    float: right;
+    color: #E02C6D;
+}
+
+/* featured section */
+
+.featured-section{
+    display: flex;
+    width: auto;
+    margin-top: 120px;
+    margin-right: 165px;
+    margin-left: 165px;
+    height: auto;
+}
+.image{
+    width: 50%;
+}
+.featured{
+    width: 50%;
+}
+.featured p{
+    margin-bottom: 30px;
+   text-align: justify;
+}
+
+/* footer section */
+.footer-area{
+    margin-top: 120px;
+    background-color: rgb(3, 3, 49);
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 8, 65);
+    height: 200px;
+    text-align: center;
+}
+.title{
+    margin:0px;
+    padding-top: 30px;
+}
+.article{
+    margin:0px;
+}
+.article1{
+    margin-top: 0px;
+    margin-bottom:15px;
+}
+.footer-title span{
+    padding-right: 10px;
+}
+
+/* media queries */
+
+/* Mobile devices */
